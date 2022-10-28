@@ -1,0 +1,21 @@
+{
+  "semi": false,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "singleQuote": false,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": false,
+  "arrowParens": "always",
+  "rangeStart": 0,
+  "requirePragma": false,
+  "insertPragma": false,
+  "proseWrap": "preserve",
+  "bracketSameLine": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#44195B",
+    "titleBar.activeBackground": "#60237F",
+    "titleBar.activeForeground": "#FDFCFE"
+  }
+}
