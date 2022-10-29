@@ -1,0 +1,22 @@
+{
+  "todo": [],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "aito"
+      },
+      "category": "UI",
+      "creation_time": "2022-10-29T10:00:55.702Z",
+      "details": {
+        "content": "det",
+        "mime": "text/markdown"
+      },
+      "id": "1",
+      "prio": 1,
+      "references": [],
+      "title": "Layout"
+    }
+  ],
+  "testing": [],
+  "done": []
+}
