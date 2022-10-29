@@ -121,6 +121,23 @@ h3 {
   text-align: center;
 }
 
+ul {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 2vh 4vw;
+  border: 2px solid #999;
+  border-radius: 8px;
+  background: rgba(55, 55, 155, .1);
+}
+li {
+  list-style: none;
+  text-align: left;
+}
+.big {
+  color: tomato;
+  font-size: 1.2em;
+}
+
 /* --- Contact --- */
 #contact {
   clear: both;
