@@ -2,7 +2,6 @@ import "./App.css"
 import Header from "./components/Header"
 import Contact from "./components/Contact"
 import Skill from "./components/Skills"
-import { FaTwitter, FaGithub } from "react-icons/fa"
 
 function App() {
   return (

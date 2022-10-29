@@ -6,11 +6,6 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#097c41",
-    "titleBar.activeBackground": "#2f9045",
-    "titleBar.activeForeground": "#FDFCFE"
-  },
   "windicss.enableEmmetCompletion": true,
   "tailwindCSS.emmetCompletions": true,
   "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
@@ -28,4 +23,9 @@
   },
   "editor.formatOnSave": true,
   "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#097c41",
+    "titleBar.activeBackground": "#2f9045",
+    "titleBar.activeForeground": "#FDFCFE"
+  },
 }

@@ -102,3 +102,55 @@ h3 {
 .icon-link {
   position: relative;
 }
+
+/* --- Skill --- */
+
+#skills {
+  clear: both;
+  padding: 128px 0;
+}
+
+.heading {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* --- Contact --- */
+#contact {
+  clear: both;
+  padding: 128px 0;
+}
+
+.contact {
+  background: #30bfba;
+}
+
+.contact-contents {
+  color: white;
+  text-align: center;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.btn {
+  padding: 16px 64px;
+  border: none !important;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: "Space Mono", Arial, serif;
+  text-decoration: none;
+}
+
+#contact .btn {
+  height: 54px;
+  background: #fff;
+  color: #30bfba;
+}
