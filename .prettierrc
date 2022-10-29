@@ -1,12 +1,11 @@
 {
   "singleQuote": false,
-  "doubleQuote": true,
+  "jsxSingleQuote": false,
   "printWidth": 80,
   "tabWidth": 2,
   "useTabs": false,
   "semi": false,
   "quoteProps": "as-needed",
-  "jsxSingleQuote": false,
   "trailingComma": "es5",
   "arrowParens": "always",
   "endOfLine": "lf",
@@ -14,6 +13,5 @@
   "jsxBracketSameLine": false,
   "requirePragma": false,
   "insertPragma": false,
-  "proseWrap": "preserve",
-  "vueIndentScriptAndStyle": false
+  "proseWrap": "preserve"
 }
