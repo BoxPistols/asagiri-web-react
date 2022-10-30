@@ -4,10 +4,13 @@ import axios from "axios"
 export const ApiBase = () => {
   const [data, setData] = React.useState({})
 
+  const id = process.env.REACT_APP_ID_NAME
+  const key = process.env.REACT_APP_KEY_NAME
+
   useEffect(() => {
     const getUser = async () => {
       const response = await axios.get(
-        "https://api.github.com/users/BoxPistols"
+        `https://api.github.com/users/BoxPistols?client_id=${id}&client_secret=${key}`
       )
       setData(response.data)
     }

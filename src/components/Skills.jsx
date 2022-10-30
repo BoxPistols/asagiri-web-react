@@ -5,12 +5,22 @@ import axios from "axios"
 
 function Skill(props) {
   const [languageList, setLanguageList] = useState([])
-  console.log(languageList)
+  // console.log(languageList)
+
+  const id = process.env.REACT_APP_ID_NAME
+  const key = process.env.REACT_APP_KEY_NAME
+  // console.log(id)
+  // console.log(key)
+
+  // .get("https://api.github.com/users/BoxPistols/repos?per_page=50")
+  // `https://api.github.com/users/BoxPistols/repos?&client_id=${id}&client_secret=${key}&per_page=100`
 
   useEffect(() => {
     // 非同期でデータを取得 TODO: 100以上 over 1handred repos API
     axios
-      .get("https://api.github.com/users/BoxPistols/repos?per_page=50")
+      .get(
+        `https://api.github.com/users/BoxPistols/repos?&client_id=${id}&client_secret=${key}&per_page=100`
+      )
       .then((response) => {
         // dataから、言語リストを配列で入れる
         const languageList = response.data.map((res) => res.language)
