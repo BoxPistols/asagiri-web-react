@@ -1,17 +1,16 @@
 /* color: #61dafb; */
 
 body {
-  background: #fff;
-  color: #4d4d4d;
+  /* background: #fff; */
+  /* color: #4d4d4d; */
   font-weight: 400;
-  font-weight: 300;
   font-size: 32px;
   line-height: 1.7;
 }
 
 h1 {
   margin: 0;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 48px;
 }
 
@@ -39,7 +38,7 @@ h3 {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(48, 191, 186, .7);
+  background: rgba(48, 191, 186, .8);
 }
 
 .profile-thumb {
@@ -159,10 +158,10 @@ li {
 
 .btn {
   padding: 16px 64px;
-  border: none !important;
+  border: none;
   border-radius: 30px;
   font-size: 16px;
-  font-family: "Space Mono", Arial, serif;
+  /* font-family: "Space Mono", Arial, serif; */
   text-decoration: none;
 }
 
@@ -170,4 +169,22 @@ li {
   height: 54px;
   background: #fff;
   color: #30bfba;
+}
+
+/* --- test --- */
+.test {
+  display: grid;
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  color: white;
+  font-size: 1rem;
+
+  place-items: center;
+}
+
+.test p {
+  margin: 0;
+  line-height: 1.5;
+  text-align: left;
 }
