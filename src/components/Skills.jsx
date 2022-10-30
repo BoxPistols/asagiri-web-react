@@ -10,7 +10,7 @@ function Skill(props) {
   useEffect(() => {
     // 非同期でデータを取得 TODO: 100以上 over 1handred repos API
     axios
-      .get("https://api.github.com/users/BoxPistols/repos?per_page=100")
+      .get("https://api.github.com/users/BoxPistols/repos?per_page=50")
       .then((response) => {
         // dataから、言語リストを配列で入れる
         const languageList = response.data.map((res) => res.language)
@@ -39,8 +39,8 @@ function Skill(props) {
   }
 
   const converseCountToPercentage = (count) => {
-    if (count > 10) {
-      return <span className="big">95</span>
+    if (count > 7) {
+      return <span className="big">80</span>
     }
     return count * 10
   }

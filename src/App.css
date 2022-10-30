@@ -4,9 +4,9 @@ body {
   background: #fff;
   color: #4d4d4d;
   font-weight: 400;
+  font-weight: 300;
   font-size: 32px;
   line-height: 1.7;
-  font-family: Arial, serif;
 }
 
 h1 {
@@ -55,7 +55,7 @@ h3 {
 }
 
 .social-icons {
-  margin: 0;
+  margin: 2vh auto;
   padding: 0;
 }
 
@@ -125,9 +125,9 @@ ul {
   width: fit-content;
   margin: 0 auto;
   padding: 2vh 4vw;
-  border: 2px solid #999;
+  border: 2px solid rgba(48, 191, 186, .9);
   border-radius: 8px;
-  background: rgba(55, 55, 155, .1);
+  background: rgba(48, 191, 186, .1);
 }
 li {
   list-style: none;
