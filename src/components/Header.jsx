@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 import CoverImage from "../images/bg.jpg"
 import ProfileImage from "../images/profile.png"
 import { FaTwitter, FaGithub } from "react-icons/fa"
+import { ApiBase } from "./ApiBase"
 
 function Header(props) {
   return (
@@ -40,6 +41,7 @@ function Header(props) {
                   </a>
                 </li>
               </ul>
+              <ApiBase />
             </div>
           </div>
         </div>
