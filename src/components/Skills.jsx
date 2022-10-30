@@ -5,15 +5,9 @@ import axios from "axios"
 
 function Skill(props) {
   const [languageList, setLanguageList] = useState([])
-  // console.log(languageList)
 
   const id = process.env.REACT_APP_ID_NAME
   const key = process.env.REACT_APP_KEY_NAME
-  // console.log(id)
-  // console.log(key)
-
-  // .get("https://api.github.com/users/BoxPistols/repos?per_page=50")
-  // `https://api.github.com/users/BoxPistols/repos?&client_id=${id}&client_secret=${key}&per_page=100`
 
   useEffect(() => {
     // 非同期でデータを取得 TODO: 100以上 over 1handred repos API
@@ -49,11 +43,16 @@ function Skill(props) {
   }
 
   const converseCountToPercentage = (count) => {
+    if (count > 10) {
+      return <span className="big">95</span>
+    }
     if (count > 7) {
       return <span className="big">80</span>
     }
     return count * 10
   }
+
+  console.log(languageList)
 
   return (
     <>

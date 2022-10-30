@@ -5,6 +5,21 @@
       "assignedTo": {
         "name": "aito"
       },
+      "category": "git",
+      "creation_time": "2022-10-30T17:17:13.497Z",
+      "description": {
+        "content": "\"language\": null の抽出\n- filter?\n\n.gitattributes",
+        "mime": "text/markdown"
+      },
+      "id": "2",
+      "prio": 1,
+      "references": [],
+      "title": "language nullの対応"
+    },
+    {
+      "assignedTo": {
+        "name": "aito"
+      },
       "category": "UI",
       "creation_time": "2022-10-29T10:00:55.702Z",
       "details": {
